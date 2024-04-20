@@ -54,3 +54,29 @@ Pythonのモジュール（拡張機能）をインストールする
 # XXXというモジュール（拡張機能）をインストール ※XXXはモジュールの名前
 pip install XXX
 ```
+
+## Git
+
+クローン（最初に作業場所をもってくる）
+```bash
+# XXXというリポジトリを自分のパソコンにもってくる
+git clone XXX
+```
+
+作業場所にはいる
+```bash
+# XXXというリポジトリにはいる
+cd XXX
+```
+
+インターネットのファイルをもってくる
+```bash
+git pull
+```
+
+インターネットにファイルをアップロードする
+```bash
+git add .
+git commit -m "update"
+git push
+```
